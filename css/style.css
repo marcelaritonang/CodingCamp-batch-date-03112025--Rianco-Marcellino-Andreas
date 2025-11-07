@@ -43,19 +43,10 @@ body {
     align-items: center;
 }
 
-.logo-circle {
-    width: 55px;
-    height: 55px;
-    background-color: #FFD700;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.logo-text {
-    font-size: 28px;
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -238,6 +229,8 @@ body {
 }
 
 .form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
 .form-group input[type="date"],
 .form-group textarea {
     width: 100%;
@@ -251,6 +244,8 @@ body {
 }
 
 .form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
 .form-group input[type="date"]:focus,
 .form-group textarea:focus {
     outline: none;
