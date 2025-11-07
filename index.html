@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo-revou.png" alt="RevoU Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#profile" class="nav-link">Our Profile</a></li>
+                <li><a href="#headquarter" class="nav-link">Our Headquarter</a></li>
+                <li><a href="#message" class="nav-link">Message Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="home" class="welcome-section">
+        <div class="container">
+            <h1 id="welcomeMessage">Hi, Welcome To Website</h1>
+            <p class="subtitle">Ini adalah website latihan pertama</p>
+        </div>
+    </section>
+
+    <!-- Our Profile Section -->
+    <section id="profile" class="profile-section">
+        <div class="container">
+            <h2>Our Profile</h2>
+            
+            <!-- Photo Banner -->
+            <div class="profile-banner">
+                <img src="https://via.placeholder.com/1200x400/4CAF50/ffffff?text=Our+Company" alt="Company Banner">
+            </div>
+
+            <!-- About Company -->
+            <div class="profile-content">
+                <div class="profile-item">
+                    <h3>About the Company</h3>
+                    <p>Kami adalah perusahaan yang bergerak di bidang teknologi dan pendidikan. Dengan pengalaman lebih dari 10 tahun, kami telah membantu ribuan individu dan organisasi dalam mengembangkan kemampuan digital mereka. Komitmen kami adalah memberikan solusi terbaik yang disesuaikan dengan kebutuhan klien.</p>
+                </div>
+
+                <!-- Vision -->
+                <div class="profile-item">
+                    <h3>Vision</h3>
+                    <p>Menjadi perusahaan terdepan dalam bidang teknologi dan pendidikan digital di Indonesia, yang dikenal karena inovasi, kualitas layanan, dan kontribusinya terhadap perkembangan sumber daya manusia Indonesia.</p>
+                </div>
+
+                <!-- Mission -->
+                <div class="profile-item">
+                    <h3>Mission</h3>
+                    <ul class="mission-list">
+                        <li>Memberikan pelayanan terbaik dengan standar kualitas internasional kepada setiap klien</li>
+                        <li>Mengembangkan inovasi teknologi yang berkelanjutan dan berdampak positif bagi masyarakat</li>
+                        <li>Meningkatkan kepuasan pelanggan melalui program pelatihan dan pendampingan yang komprehensif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Headquarter Section -->
+    <section id="headquarter" class="headquarter-section">
+        <div class="container">
+            <h2>Our Headquarter</h2>
+            <div class="headquarter-grid">
+                <div class="headquarter-item">
+                    <div class="headquarter-circle">
+                        <img src="https://via.placeholder.com/150/FF6B6B/ffffff?text=Jakarta" alt="Jakarta">
+                    </div>
+                    <p class="headquarter-name">Jakarta</p>
+                </div>
+                <div class="headquarter-item">
+                    <div class="headquarter-circle">
+                        <img src="https://via.placeholder.com/150/4ECDC4/ffffff?text=Bandung" alt="Bandung">
+                    </div>
+                    <p class="headquarter-name">Bandung</p>
+                </div>
+                <div class="headquarter-item">
+                    <div class="headquarter-circle">
+                        <img src="https://via.placeholder.com/150/95E1D3/ffffff?text=Surabaya" alt="Surabaya">
+                    </div>
+                    <p class="headquarter-name">Surabaya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Us Section -->
+    <section id="message" class="message-section">
+        <div class="container">
+            <h2>Message Us</h2>
+            
+            <div class="message-wrapper">
+                <!-- Form Section -->
+                <div class="form-container">
+                    <form id="messageForm" class="message-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <span class="separator">:</span>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <span class="separator">:</span>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <span class="separator">:</span>
+                            <input type="tel" id="phone" name="phone" placeholder="08123456789" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <span class="separator">:</span>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <div class="form-group submit-group">
+                            <button type="submit" class="btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Result Display Section -->
+                <div class="result-container">
+                    <div id="resultDisplay" class="result-display">
+                        <p class="result-info">Silakan isi form untuk melihat hasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Created By RevoU</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
